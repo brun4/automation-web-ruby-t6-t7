@@ -28,8 +28,16 @@ Então devo ler o texto "O Qa.Coders é feito para os alunos"
 
 #Cenário 4 - Parceiros
 
-Cenario: Menu Parceiros
+Cenario: Acessar Parceiros
 
 Dado que eu acesse a home page do projeto Qa.Coders
 Quando clicar no menu "Parceiros"
 Então devo visualizar "Parceiros"
+
+#Cenário 5 - Fale Conosco
+
+Cenario: Acessar Fale Conosco
+
+Dado que eu acesse a home page do projeto Qa.Coders
+Quando clico no "Fale Conosco"
+Então devo obter informações sobre "Fale Conosco"

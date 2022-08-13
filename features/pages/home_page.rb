@@ -42,4 +42,14 @@ class Home < SitePrism::Page
     end
 end
 
+#Cenário 4 - Fale Conosco
+
+def validate_text_menu_faleconosco(faleconosco)
+
+  title_faleconosco = find('#faleConosco > div > h3')
+     if title_faleconosco.text.eql?(faleconosco) != true
+     raise "Expect element: #{faleconosco}, but returned: #{title_faleconosco.text}"
+     end
+end    
+
 end
