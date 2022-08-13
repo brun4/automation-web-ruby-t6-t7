@@ -25,3 +25,11 @@ Cenário: Acessar Depoimentos
 Dado  que eu acesse a home page do projeto Qa.Coders
 Quando clico no ítem "Depoimentos"
 Então devo ler o texto "O Qa.Coders é feito para os alunos"
+
+#Cenário 4 - Parceiros
+
+Cenario: Menu Parceiros
+
+Dado que eu acesse a home page do projeto Qa.Coders
+Quando clicar no menu "Parceiros"
+Então devo visualizar "Parceiros"

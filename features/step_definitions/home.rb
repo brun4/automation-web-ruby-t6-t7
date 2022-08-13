@@ -29,3 +29,14 @@ Então('devo ler o texto {string}') do |title_depoimentos|
   home.validate_text_menu_depoimentos(title_depoimentos)
   sleep 3
 end
+
+#Cenário 3 - Depoimentos
+
+Quando('clicar no menu {string}') do |parceiros|
+  home.click_link(parceiros) 
+  sleep 2
+end
+Então('devo visualizar {string}') do |verifica_parceiros|
+  home.validate_text_menu_parceiros(verifica_parceiros)
+  sleep 2
+end

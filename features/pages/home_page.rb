@@ -26,12 +26,20 @@ class Home < SitePrism::Page
 
     #Cenário 3 - Depoimentos  
 
-def validate_text_menu_depoimentos(depoimentos)
+  def validate_text_menu_depoimentos(depoimentos)
 
   title_depoimentos = find('#depoimentos > div.title.MuiBox-root.css-0 > div > h3')
       if title_depoimentos.text.eql?(depoimentos) != true
       raise "Expect element: #{depoimentos}, but returned: #{title_depoimentos.text}"
       end
   end
+
+  #Cenário 4 - Parceiros
+
+  def validate_text_menu_parceiros(parceiros)
+    if parceiros == "Parceiros"
+        title_Parceiros = find('#parceiros > h3')
+    end
+end
 
 end
