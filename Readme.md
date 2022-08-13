@@ -18,7 +18,8 @@ Projeto de automação web utilizando Ruby + Cucumber. Finalização do Módulo 
 2. Abrir a pasta no VSCode
 3. Abrir o terminal (do VSCode, ou o da sua preferência e navegar até a pasta do projeto) e rodar o comando 'bundle install'
 4. Para rodar os cenários, utilizar o comando de run do Cucumber: ex.:
-   rodar todos os cenários: 'cucumber'
+
+- rodar todos os cenários: 'cucumber'
 
 **⚙️ Roteiro para RECRIAR o projeto**
 
