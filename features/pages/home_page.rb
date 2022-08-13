@@ -16,7 +16,7 @@ class Home < SitePrism::Page
 
   #Cenário 2 - Sobre nós  
 
-  def validate_text_sobrenos(sobre_nos)
+  def validate_text_menu_sobrenos(sobre_nos)
 
     title_sobre_Nos = find('#sobre-nos > div.MuiBox-root.css-1ln06le > h3')
         if title_sobre_Nos.text.eql?(sobre_nos) != true
@@ -26,7 +26,7 @@ class Home < SitePrism::Page
 
     #Cenário 3 - Depoimentos  
 
-def validate_text_depoimentos(depoimentos)
+def validate_text_menu_depoimentos(depoimentos)
 
   title_depoimentos = find('#depoimentos > div.title.MuiBox-root.css-0 > div > h3')
       if title_depoimentos.text.eql?(depoimentos) != true

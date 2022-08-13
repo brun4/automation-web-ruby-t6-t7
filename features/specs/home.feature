@@ -14,7 +14,7 @@ Então devo visualizar a informação "Aprenda na prática."
 
 Cenario: Acessar Sobre Nós
 
-Dado que eu esteja na home page do projeto Qa.Coders
+Dado  que eu acesse a home page do projeto Qa.Coders
 Quando clico no menu "Sobre nós"
 Então devo ver o texto "Sobre nós"
 
@@ -22,6 +22,6 @@ Então devo ver o texto "Sobre nós"
 
 Cenário: Acessar Depoimentos
 
-Dado que estou vendo a home page do projeto Qa.Coders
+Dado  que eu acesse a home page do projeto Qa.Coders
 Quando clico no ítem "Depoimentos"
 Então devo ler o texto "O Qa.Coders é feito para os alunos"
