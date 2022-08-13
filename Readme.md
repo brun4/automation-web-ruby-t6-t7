@@ -1,6 +1,6 @@
 # Automação Ruby + Cucumber
 
-Projeto de automação web utilizando Ruby + Cucumber.
+Projeto de automação web utilizando Ruby + Cucumber. Finalização do Módulo 3 do curso do Qa.Coders.
 
 **📋 Ambiente**
 
